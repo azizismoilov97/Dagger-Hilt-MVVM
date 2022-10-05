@@ -29,6 +29,7 @@ object NetworkModule {
         return Retrofit.Builder()
             .baseUrl("https://open-api.xyz/placeholder/")
             .addConverterFactory(GsonConverterFactory.create(gson))
+        // base url will must be changed
     }
 
     @Singleton
